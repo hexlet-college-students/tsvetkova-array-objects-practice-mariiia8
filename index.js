@@ -1,3 +1,6 @@
+const stringToArray = (content) => {
+    return content.trim().split('\n').map((item) => item.split(';'));
+};
 // task 1
 const tableParsing = (/* content */) => {
 
